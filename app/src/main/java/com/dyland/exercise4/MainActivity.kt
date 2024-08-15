@@ -148,7 +148,7 @@ class MainActivity : ComponentActivity(), TextToSpeech.OnInitListener {
                        }
                     },
                 ) {
-                    Text(text = if (isLoading.value) "Stop" else "Start")
+                    Text(text = if (isLoading.value) "Stop Listen" else "Start")
                 }
 
                 Button(
